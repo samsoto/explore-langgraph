@@ -5,6 +5,18 @@ https://langchain-ai.github.io/langgraph/tutorials/langgraph-platform/local-serv
 > cd src
 > langgraph dev
 
+# vscode settings
+
+```json
+{
+  "flake8.enabled": true,
+  "flake8.args": [
+    "--max-line-length=120"
+  ],
+  "workbench.tree.indent": 18
+}
+```
+
 # Python >= 3.11 is required.
 
 > pip install --upgrade "langgraph-cli[inmem]"
